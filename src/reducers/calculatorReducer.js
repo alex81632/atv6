@@ -22,9 +22,7 @@ const calculatorReducer = (state = initialState, action) => {
         case ADD_OPERATOR:
             const newOperator = action.payload;
 
-            // Lógica para adicionar operadores
             if (operator && prevValue) {
-                // Se já houver um operador e um valor anterior, calcula o resultado antes de adicionar o novo operador
                 const result = performCalculation(prevValue, displayValue, operator);
                 return {
                     ...state,
@@ -33,7 +31,6 @@ const calculatorReducer = (state = initialState, action) => {
                     prevValue: result,
                 };
             } else {
-                // Se não houver operador ou valor anterior, simplesmente atualiza o operador
                 return {
                     ...state,
                     operator: newOperator,

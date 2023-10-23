@@ -1,4 +1,3 @@
-// Keypad.js
 import React from 'react';
 
 const Keypad = ({ onNumberClick, onOperatorClick, onCalculateResult, onClearAll }) => {
