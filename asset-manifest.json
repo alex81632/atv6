@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/atv6/static/css/main.d985ac3a.css",
+    "main.js": "/atv6/static/js/main.8ca09205.js",
+    "index.html": "/atv6/index.html",
+    "main.d985ac3a.css.map": "/atv6/static/css/main.d985ac3a.css.map",
+    "main.8ca09205.js.map": "/atv6/static/js/main.8ca09205.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d985ac3a.css",
+    "static/js/main.8ca09205.js"
+  ]
+}
